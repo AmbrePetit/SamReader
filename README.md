@@ -12,7 +12,8 @@ Our script uses different configuration and packages, please check if it's compa
 
 
 Installation : 
-- Download all elements of this project : 
+- Download all elements of this project with git clone : git clone https://github.com/AmbrePetit/SamReaderProject.git
+- Download directly on the page : download the entire repository by clicking on the green button "<> Code" then "Download ZIP"
 
 
 Input : 
