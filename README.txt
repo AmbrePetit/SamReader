@@ -53,4 +53,4 @@ SamReader.py -i or --input <file> -o or --output <name> # Launch SamReader to an
   
 
 Authors 
-Bioinformatics student : Ambre PETIT and Laure NANNINI
+Bioinformatics students : Ambre PETIT and Laure NANNINI
