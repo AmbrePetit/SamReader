@@ -37,21 +37,21 @@ import pathlib
 file_name = input("File's name : ")
 emplacement = input("Indicate file's location : ")
 
-def verification(ourFile) :
-  # Verification of the file's extension, must be a .sam file
-  if pathlib.Path(file_name).suffix != ".sam" :
-    print("Error, please enter a .sam file")
-    exit()
 
-  # Verification that the file is really a file
-  if os.path.isdir(file_name) == 1 :
-    print("Error, not a file")
-    exit()
+# Verification of the file's extension, must be a .sam file
+if pathlib.Path(file_name).suffix != ".sam" :
+  print("Error, please enter a .sam file")
+  exit()
 
-  # Verification that the file is not empty
-  if os.path.getsize(emplacement+'/'+file_name) == 0: 
-    print("Error, file is empty")
-    exit()
+# Verification that the file is really a file
+if os.path.isdir(file_name) == 1 :
+  print("Error, not a file")
+  exit()
+
+# Verification that the file is not empty
+if os.path.getsize(emplacement+'/'+file_name) == 0: 
+  print("Error, file is empty")
+  exit()
 
 
 ### 2/ Read the file 
