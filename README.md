@@ -12,7 +12,7 @@ Our script uses different configuration and packages, please check if it's compa
 
 
 Installation : 
-- Download the script :
+- Download all elements of this project :
 
 
 Input : 
