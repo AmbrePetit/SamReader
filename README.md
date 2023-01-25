@@ -29,7 +29,7 @@ Output :
 - Number of reads greater than a specific mapping quality
 - Number of reads correctly aligned (based on CIGAR informations)
 - Number of mapped reads (identified with FLAG)
-- Number of reads "proper mapped" : paired reads and mapped in proper pair with a sequence's size < 150 bp (identified with FLAG°
+- Number of reads "proper mapped" : paired reads and mapped in proper pair with a sequence's size < 150 bp (identified with FLAG)
 
 Saving on a text file : 
 - Enter "y" at the question "Do you want to save all values in a .txt file ?" : the file would be placed by default on your current repertory and the file named "Results.txt" 
